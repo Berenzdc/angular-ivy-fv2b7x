@@ -1,0 +1,29 @@
+
+
+
+
+Table{
+  text-overflow: ;
+  border:1px solid;
+  text-align: left;
+  border-collapse: collapse;
+  overflow:scroll;
+}
+th,td{
+  width:10%;
+  min-width: auto;
+  border:solid 1px black;
+  border-collapse: collapse;
+  float:none;
+}
+
+/*Label {
+  margin: auto;
+  padding: auto;
+  border-style:solid;
+  border:1px solid  ;
+}*/
+body{
+  border: solid 1px;
+  float:none;
+}
