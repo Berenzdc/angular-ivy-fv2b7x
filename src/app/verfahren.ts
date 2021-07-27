@@ -1,30 +1,30 @@
 export interface verfahren {
-  id:number;
+  Id:number;
   name:string;
   verantwortlicher:string;
 }
 
 export const verfahren = [
   {
-    id: 1,
+    Id: 1,
     name: 'Java',
     verantwortlicher: 'Benjamin Seewald'
  
   },
   {
-    id: 2,
+    Id: 2,
     name: 'test1',
     verantwortlicher: 'Benjamin Seewald'
  
   },
   {
-    id: 3,
+    Id: 3,
     name: 'zulangfürdiebox',
     verantwortlicher: 'Benjamin Seewald'
  
   },
   {
-    id: 4,
+    Id: 4,
     name: 'test3',
     verantwortlicher: 'Benjamin Seewald'
  

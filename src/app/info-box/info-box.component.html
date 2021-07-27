@@ -9,6 +9,9 @@
 <table>
   <tr>
   <th>
+  Id
+</th>
+  <th>
     Name
   </th>
   <th>
@@ -16,6 +19,7 @@ Verantwortlicher
   </th>
   </tr>
   <tr *ngFor="let verfahren of verfahren">
+  <td>{{ verfahren.Id }}</td>    
 <td>{{ verfahren.name }}</td>
 <td>{{ verfahren.verantwortlicher }}</td>
   </tr>
